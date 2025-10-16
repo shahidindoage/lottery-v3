@@ -42,7 +42,7 @@ export default async function AdminDashboard() {
         <thead>
           <tr>
             {/* <th>ID</th> */}
-            <th>Customer ID</th>
+            {/* <th>Customer ID</th> */}
             <th>Name</th>
            
             <th>WhatsApp Number</th>
@@ -63,7 +63,7 @@ export default async function AdminDashboard() {
           {submissions.map((s) => (
             <tr key={s.id}>
               {/* <td>{s.id}</td> */}
-              <td>{s.uniqueId}</td>
+              {/* <td>{s.uniqueId}</td> */}
               <td>{s.name}</td>
              
               <td>{s.phone || '-'}</td>
